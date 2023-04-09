@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/skeleton.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-left">Add Product</h1>
+        <p class="flashmsg"></p>
+        <form action="" method="get" id="frm">
+            <div class="form-group">
+                <label for="product">Product Name</label>
+                <input type="text" name="product" id="product" class="u-full-width">
+            </div>
+            <div class="form-group">
+                <label for="price">Product Price</label>
+                <input type="text" name="price" id="price" class="u-full-width">
+            </div>
+            <div class="form-group">
+                <label for="qty">Stock Quantity</label>
+                <input type="text" name="qty" id="qty" class="u-full-width">
+            </div>
+            <div class="form-group">
+                <input type="submit" id="submit" value="save" class="u-full-width">
+            </div>
+        </form>
+        <hr>
+        <table class="table u-full-width">
+            <thead>
+                <tr>
+                    <th>SL</th>
+                    <th>Product anme</th>
+                    <th>qty</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="showproduct">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
